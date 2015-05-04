@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		FDA1D3231AF6590800C96352 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA1D3221AF6590800C96352 /* main.m */; };
 		FDA1D3261AF6590800C96352 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA1D3251AF6590800C96352 /* AppDelegate.m */; };
-		FDA1D3291AF6590800C96352 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA1D3281AF6590800C96352 /* ViewController.m */; };
 		FDA1D32C1AF6590800C96352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA1D32A1AF6590800C96352 /* Main.storyboard */; };
 		FDA1D32E1AF6590800C96352 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA1D32D1AF6590800C96352 /* Images.xcassets */; };
 		FDA1D3311AF6590800C96352 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA1D32F1AF6590800C96352 /* LaunchScreen.xib */; };
 		FDA1D33D1AF6590800C96352 /* EasyREST_APITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA1D33C1AF6590800C96352 /* EasyREST_APITests.m */; };
+		FDA1D3471AF6597200C96352 /* huanxinAPPInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = FDA1D3461AF6597200C96352 /* huanxinAPPInfo.png */; };
+		FDA1D3571AF659D000C96352 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA1D34D1AF659D000C96352 /* HomeViewController.m */; };
+		FDA1D3581AF659D000C96352 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA1D3501AF659D000C96352 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FDA1D3591AF659D000C96352 /* EaseInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA1D3531AF659D000C96352 /* EaseInfoManager.m */; };
+		FDA1D35A1AF659D000C96352 /* EaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA1D3551AF659D000C96352 /* EaseNetManager.m */; };
+		FDA1D35E1AF65A7B00C96352 /* EasyRESTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA1D35D1AF65A7B00C96352 /* EasyRESTViewController.m */; };
+		FDA1D3651AF66F9700C96352 /* ZYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA1D3641AF66F9700C96352 /* ZYAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +38,26 @@
 		FDA1D3221AF6590800C96352 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FDA1D3241AF6590800C96352 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FDA1D3251AF6590800C96352 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FDA1D3271AF6590800C96352 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FDA1D3281AF6590800C96352 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FDA1D32B1AF6590800C96352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDA1D32D1AF6590800C96352 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FDA1D3301AF6590800C96352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FDA1D3361AF6590800C96352 /* EasyREST_APITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyREST_APITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA1D33B1AF6590800C96352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDA1D33C1AF6590800C96352 /* EasyREST_APITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyREST_APITests.m; sourceTree = "<group>"; };
+		FDA1D3461AF6597200C96352 /* huanxinAPPInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huanxinAPPInfo.png; sourceTree = "<group>"; };
+		FDA1D34C1AF659D000C96352 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FDA1D34D1AF659D000C96352 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FDA1D34F1AF659D000C96352 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		FDA1D3501AF659D000C96352 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		FDA1D3521AF659D000C96352 /* EaseInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseInfoManager.h; sourceTree = "<group>"; };
+		FDA1D3531AF659D000C96352 /* EaseInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseInfoManager.m; sourceTree = "<group>"; };
+		FDA1D3541AF659D000C96352 /* EaseNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseNetManager.h; sourceTree = "<group>"; };
+		FDA1D3551AF659D000C96352 /* EaseNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseNetManager.m; sourceTree = "<group>"; };
+		FDA1D3561AF659D000C96352 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		FDA1D35C1AF65A7B00C96352 /* EasyRESTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyRESTViewController.h; sourceTree = "<group>"; };
+		FDA1D35D1AF65A7B00C96352 /* EasyRESTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyRESTViewController.m; sourceTree = "<group>"; };
+		FDA1D3631AF66F9700C96352 /* ZYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAlertView.h; sourceTree = "<group>"; };
+		FDA1D3641AF66F9700C96352 /* ZYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +99,15 @@
 		FDA1D31F1AF6590800C96352 /* EasyREST_API */ = {
 			isa = PBXGroup;
 			children = (
+				FDA1D3461AF6597200C96352 /* huanxinAPPInfo.png */,
 				FDA1D3241AF6590800C96352 /* AppDelegate.h */,
 				FDA1D3251AF6590800C96352 /* AppDelegate.m */,
-				FDA1D3271AF6590800C96352 /* ViewController.h */,
-				FDA1D3281AF6590800C96352 /* ViewController.m */,
 				FDA1D32A1AF6590800C96352 /* Main.storyboard */,
+				FDA1D3621AF66F9700C96352 /* ZYAlertView */,
+				FDA1D35B1AF65A6D00C96352 /* EasyRESTViewController */,
+				FDA1D34B1AF659D000C96352 /* HomeViewController */,
+				FDA1D34E1AF659D000C96352 /* JSONKit-NoWarning */,
+				FDA1D3511AF659D000C96352 /* Manager */,
 				FDA1D32D1AF6590800C96352 /* Images.xcassets */,
 				FDA1D32F1AF6590800C96352 /* LaunchScreen.xib */,
 				FDA1D3201AF6590800C96352 /* Supporting Files */,
@@ -117,6 +139,54 @@
 				FDA1D33B1AF6590800C96352 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDA1D34B1AF659D000C96352 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FDA1D34C1AF659D000C96352 /* HomeViewController.h */,
+				FDA1D34D1AF659D000C96352 /* HomeViewController.m */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		FDA1D34E1AF659D000C96352 /* JSONKit-NoWarning */ = {
+			isa = PBXGroup;
+			children = (
+				FDA1D34F1AF659D000C96352 /* JSONKit.h */,
+				FDA1D3501AF659D000C96352 /* JSONKit.m */,
+			);
+			path = "JSONKit-NoWarning";
+			sourceTree = "<group>";
+		};
+		FDA1D3511AF659D000C96352 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FDA1D3521AF659D000C96352 /* EaseInfoManager.h */,
+				FDA1D3531AF659D000C96352 /* EaseInfoManager.m */,
+				FDA1D3541AF659D000C96352 /* EaseNetManager.h */,
+				FDA1D3551AF659D000C96352 /* EaseNetManager.m */,
+				FDA1D3561AF659D000C96352 /* Header.h */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FDA1D35B1AF65A6D00C96352 /* EasyRESTViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FDA1D35C1AF65A7B00C96352 /* EasyRESTViewController.h */,
+				FDA1D35D1AF65A7B00C96352 /* EasyRESTViewController.m */,
+			);
+			path = EasyRESTViewController;
+			sourceTree = "<group>";
+		};
+		FDA1D3621AF66F9700C96352 /* ZYAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				FDA1D3631AF66F9700C96352 /* ZYAlertView.h */,
+				FDA1D3641AF66F9700C96352 /* ZYAlertView.m */,
+			);
+			path = ZYAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDA1D32C1AF6590800C96352 /* Main.storyboard in Resources */,
+				FDA1D3471AF6597200C96352 /* huanxinAPPInfo.png in Resources */,
 				FDA1D3311AF6590800C96352 /* LaunchScreen.xib in Resources */,
 				FDA1D32E1AF6590800C96352 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +290,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDA1D3291AF6590800C96352 /* ViewController.m in Sources */,
+				FDA1D35A1AF659D000C96352 /* EaseNetManager.m in Sources */,
+				FDA1D35E1AF65A7B00C96352 /* EasyRESTViewController.m in Sources */,
 				FDA1D3261AF6590800C96352 /* AppDelegate.m in Sources */,
 				FDA1D3231AF6590800C96352 /* main.m in Sources */,
+				FDA1D3591AF659D000C96352 /* EaseInfoManager.m in Sources */,
+				FDA1D3571AF659D000C96352 /* HomeViewController.m in Sources */,
+				FDA1D3651AF66F9700C96352 /* ZYAlertView.m in Sources */,
+				FDA1D3581AF659D000C96352 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EasyREST_API/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EasyREST_API/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
