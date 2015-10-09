@@ -32,9 +32,14 @@
 - (IBAction)next:(UIButton *)sender {
     [self.view endEditing:YES];
 //    这里直接填写你的信息
-    self.AppKeyTextField.text = @"";
-    self.client_idTextField.text = @"";
-    self.client_secretTextField.text = @"";
+//    self.AppKeyTextField.text = @"polystor-1#oppein";
+//    self.client_idTextField.text = @"YXA6-bfa0NgbEeShfD2m51Vnug";
+//    self.client_secretTextField.text = @"YXA67Doo71CoYhckXPEmUYVzAbLkfsk";
+    
+    self.AppKeyTextField.text = @"gyyys#yunhaiqiaodev";
+    self.client_idTextField.text = @"YXA6aBE-wOjbEeSbvOfBpCG12g";
+    self.client_secretTextField.text = @"YXA6bYKy1fioM5ULhuqWwJOA6MYa33g";
+    
     
     if ([self.AppKeyTextField.text isEqualToString:@""] || [self.client_idTextField.text isEqualToString:@""] || [self.client_secretTextField.text isEqualToString:@""]) {
         UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:nil message:@"请填写完整信息" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
